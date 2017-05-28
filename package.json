@@ -1,0 +1,16 @@
+{
+  "name": "lookit",
+  "version": "1.0.0",
+  "description": "frontend application that tells you stuff about the technologies used for websites.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack build",
+    "test": ""
+  },
+  "author": "Matt H",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^2.6.1",
+    "webpack-merge": "^4.1.0"
+  }
+}
