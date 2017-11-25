@@ -1,3 +1,3 @@
 'use strict';
 
-console.log('hiiii')
+import vendorOne from 'vendor/vendor-one.js'

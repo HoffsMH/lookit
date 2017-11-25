@@ -4,12 +4,19 @@
   "description": "frontend application that tells you stuff about the technologies used for websites.",
   "main": "index.js",
   "scripts": {
-    "build": "webpack build",
+    "build": "webpack --progress --colors --config=config/webpack.config.js --env=development",
+    "build:prod": "webpack --progress --colors --config=config/webpack.config.js --env=production",
+    "start": "echo some",
     "test": ""
   },
   "author": "Matt H",
   "license": "MIT",
   "devDependencies": {
+    "chunk-manifest-webpack-plugin": "^1.1.0",
+    "handlebars": "^4.0.10",
+    "handlebars-loader": "^1.5.0",
+    "html-webpack-plugin": "^2.28.0",
+    "lodash": "^4.17.4",
     "webpack": "^2.6.1",
     "webpack-merge": "^4.1.0"
   }
